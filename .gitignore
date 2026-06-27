@@ -1,40 +1,23 @@
-# ---- Secrets / environment ----
+﻿# Secrets
 .env
 .env.*
-*.env
 
-# ---- Python ----
+# Python
 venv/
-.venv/
-env/
 __pycache__/
-*.py[cod]
-*$py.class
-*.egg-info/
-.eggs/
-build/
-dist/
+*.pyc
 
-# ---- Test / scratch scripts (local only) ----
-test_fetch.py
-test_db.py
-test_career.py
-test_standings.py
-test_results.py
-create_tables.py
+# Local test/scratch scripts
+test_*.py
 clear_careers.py
 count_drivers.py
+create_tables.py
 
-# ---- IDE / editor ----
-.vscode/
-.idea/
-*.swp
-*.swo
+# Flutter build junk
+frontend/build/
+frontend/.dart_tool/
+frontend/android/.gradle/
 
-# ---- OS ----
+# OS
 .DS_Store
 Thumbs.db
-desktop.ini
-
-# ---- Logs ----
-*.log
